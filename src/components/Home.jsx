@@ -12,7 +12,7 @@ const Home = () => {
           height="260px"
         ></img>
       </article>
-      <article>
+      <article >
         <p>
           I'm baby kitsch man braid yuccie put a bird on it you probably haven't
           heard of them leggings selvage twee art party drinking vinegar. Palo
