@@ -3,8 +3,8 @@ import img from "./images/josie-main.jpeg";
 
 const Home = () => {
   return (
-    <div>
-      <article>
+    <div className="homePage">
+      <article className="homePhoto">
         <img
           src={img}
           alt="a photo of josie"
@@ -12,7 +12,7 @@ const Home = () => {
           height="260px"
         ></img>
       </article>
-      <article >
+      <article className="homeContent">
         <p>
           I'm baby kitsch man braid yuccie put a bird on it you probably haven't
           heard of them leggings selvage twee art party drinking vinegar. Palo

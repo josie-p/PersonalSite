@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div id="navbar">
-<header className="bg-blue-600">
+    <div>
+<header id="navbar">
       <h1>Josie Parker</h1>
       <nav>
         <Link to='/'>home</Link>

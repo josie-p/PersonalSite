@@ -1,0 +1,60 @@
+/*  colors: 
+
+anitque white: #FBEDDA
+charcoal: #2E4057
+yale blue: #083D77
+oxford blue: #041E39
+persian blue: #383fbc
+cerise: #DA4167
+sunglow: #FFC857
+anti-flash white: #D7CAE2
+*/
+
+body{
+    background-color: #F2F5F8;
+}
+
+/* navbar styling */
+#navbar{
+    background-color: #fbedda;
+    color: #383fbc;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+   flex: 1;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+nav > a{
+ margin-right: 10px;
+}
+
+
+/* home page */
+.homePage{
+    display: flex;
+    flex-direction: row;
+}
+
+.homePhoto{
+display: flex;
+flex: 1;
+align-content: center;
+justify-content: center;
+}
+
+.homeContent{
+    display: flex;
+    flex: 3;
+    align-content: center;
+    justify-content: center;
+    max-width: 450px;
+}
