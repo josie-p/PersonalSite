@@ -10,51 +10,79 @@ sunglow: #FFC857
 anti-flash white: #D7CAE2
 */
 
-body{
-    background-color: #F2F5F8;
+body {
+  margin: 0;
+  background-color: #fbedda;
 }
 
 /* navbar styling */
-#navbar{
-    background-color: #fbedda;
-    color: #383fbc;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-   flex: 1;
+#navbar {
+  background-color: #fbedda;
+  color: #383fbc;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  flex: 1;
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    align-self: center;
+nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-self: center;
+  padding: 30px;
 }
 
-nav > a{
- margin-right: 10px;
+nav > a {
+  margin-right: 10px;
 }
 
+/* bottom nav styling */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffc857;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
 
 /* home page */
-.homePage{
-    display: flex;
-    flex-direction: row;
+.homePage {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
-.homePhoto{
-display: flex;
-flex: 1;
-align-content: center;
-justify-content: center;
+.homePhoto {
+    margin: auto;
+  display: flex;
+  /* flex: 0.5; */
+  align-content: center;
+  justify-content: center;
 }
 
-.homeContent{
-    display: flex;
-    flex: 3;
-    align-content: center;
-    justify-content: center;
-    max-width: 450px;
+.homePhoto > img {
+  height: 380px;
+  width: 350px;
+}
+
+.homeContent {
+  display: flex;
+  /* flex: 3; */
+  align-content: center;
+  justify-content: center;
+  max-width: 550px;
+  max-height: 600px;
+  margin-left: 10px;
 }

@@ -6,12 +6,12 @@ import linkedIn from './images/linked-in2.png';
 const BottomNav = () => {
     return(
         <footer>
-      <div>
+      <div className='footer-links'>
       <Link to='/'>home</Link>
         <Link to='/about'>about me</Link>
         <Link to='/portfolio'>portfolio</Link>
         <p>Don't hesitate to <a href="mailto:parker.josie.eden@gmail.com" title="Contact Josie">contact</a> me! </p>
-        <div>
+        <div className='footer-sm'>
         <img src={insta} alt="Instagram Logo"
           />
           <img src={linkedIn} alt="LinkedIn Logo"

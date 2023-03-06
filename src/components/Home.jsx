@@ -8,11 +8,9 @@ const Home = () => {
         <img
           src={img}
           alt="a photo of josie"
-          width="278px"
-          height="260px"
         ></img>
       </article>
-      <article className="homeContent">
+      {/* <article className="homeContent">
         <p>
           I'm baby kitsch man braid yuccie put a bird on it you probably haven't
           heard of them leggings selvage twee art party drinking vinegar. Palo
@@ -25,7 +23,7 @@ const Home = () => {
           lumbersexual green juice keffiyeh heirloom. 90's craft beer marxism
           meh echo park prism.
         </p>
-      </article>
+      </article> */}
     </div>
   );
 };
