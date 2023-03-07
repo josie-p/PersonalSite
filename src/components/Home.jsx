@@ -5,10 +5,12 @@ const Home = () => {
   return (
     <div className="homePage">
       <article className="homePhoto">
+        <h1 id="first">Josie</h1>
         <img
           src={img}
           alt="a photo of josie"
         ></img>
+        <h1 id="last">Parker</h1>
       </article>
       {/* <article className="homeContent">
         <p>

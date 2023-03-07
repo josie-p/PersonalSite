@@ -10,20 +10,24 @@ sunglow: #FFC857
 anti-flash white: #D7CAE2
 */
 
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;500&family=Tilt+Neon&family=Tilt+Warp&family=Urbanist:wght@200&display=swap');
 body {
   margin: 0;
-  background-color: #fbedda;
+  background-color: #B8B8FF;
 }
 
 /* navbar styling */
 #navbar {
-  background-color: #fbedda;
+  background-color: #B8B8FF;
   color: #383fbc;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
   flex: 1;
+  font-family: 'DM Serif Display', serif;
+
 }
 
 nav {
@@ -33,6 +37,7 @@ nav {
   justify-content: space-around;
   align-self: center;
   padding: 30px;
+  font-family: 'DM Serif Display', serif;
 }
 
 nav > a {
@@ -65,16 +70,33 @@ footer {
 }
 
 .homePhoto {
-    margin: auto;
+  margin: auto;
   display: flex;
   /* flex: 0.5; */
+  flex-direction: column;
   align-content: center;
   justify-content: center;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 30pt;
+  letter-spacing: 3px;
+  color: #1F00CC;
+  text-shadow: 2px 2px  #FFEEDD;
+}
+
+#first{
+  position: relative;
+  left: 200px;
+  bottom: -75px;
+}
+
+#last{
+  position: relative;
+  right: 40px;
 }
 
 .homePhoto > img {
-  height: 380px;
-  width: 350px;
+  height: 400px;
+  width: 385px;
 }
 
 .homeContent {
