@@ -1,20 +1,14 @@
 import React from "react";
+import { About, Portfolio } from './index'
 import img from "./images/josie-main.jpeg";
 
 const Home = () => {
   return (
     <div className="homePage">
-      <article className="homePhoto">
-        <h1 id="first">Josie</h1>
-        <img
-          src={img}
-          alt="a photo of josie"
-        ></img>
-        <h1 id="last">Parker</h1>
-      </article>
-      {/* <article className="homeContent">
+          <article className="homeContent">
+            <h1>Josie Parker</h1>
         <p>
-          I'm baby kitsch man braid yuccie put a bird on it you probably haven't
+          {/* I'm baby kitsch man braid yuccie put a bird on it you probably haven't
           heard of them leggings selvage twee art party drinking vinegar. Palo
           santo shaman before they sold out put a bird on it microdosing tote
           bag, stumptown leggings hashtag bespoke paleo. Tousled shabby chic
@@ -23,9 +17,26 @@ const Home = () => {
           keytar. Ugh single-origin coffee godard master cleanse jianbing. JOMO
           sus street art, hashtag fingerstache YOLO gatekeep slow-carb
           lumbersexual green juice keffiyeh heirloom. 90's craft beer marxism
-          meh echo park prism.
+          meh echo park prism. */}
+          An aspiring fullstack developer
         </p>
-      </article> */}
+      </article>
+      {/* <article className="homePhoto">
+        <h1 id="first">Josie Parker</h1> */}
+        {/* <img
+          src={img}
+          alt="a photo of josie"
+        ></img> */}
+        {/* <h1 id="last">Parker</h1> */}
+      {/* </article> */}
+      {/* <About/>
+      <Portfolio/> */}
+      <div id="about-section">
+        <About/>
+      </div>
+      <div id="folio-section">
+        <Portfolio/>
+      </div>
     </div>
   );
 };
